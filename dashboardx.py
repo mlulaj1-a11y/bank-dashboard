@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load dataset
-df = pd.read_csv("bank-additional-full copy.csv", sep=';', encoding='latin1')
+df = pd.read_csv("bank-additional-full copy.csv", sep=";", encoding="latin1")
 df.columns = df.columns.str.strip()
 
 st.title("Interactive Bank Marketing Dashboard")
