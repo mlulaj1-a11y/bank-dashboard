@@ -6,7 +6,7 @@ import plotly.express as px
 df = pd.read_csv("bank-additional-full copy.csv", sep=';', encoding='latin1')
 df.columns = df.columns.str.strip()
 
-st.title("📊 Interactive Bank Marketing Dashboard")
+st.title("Interactive Bank Marketing Dashboard")
 
 # Sidebar filters
 st.sidebar.header("Filter Options")
