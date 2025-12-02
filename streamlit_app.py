@@ -111,4 +111,4 @@ if not numeric_cols.empty:
     st.plotly_chart(fig3)
 else:
     st.write("Not enough numeric data to compute correlation."
-             
+            )         
